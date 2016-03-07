@@ -1,0 +1,69 @@
+/* Create two main media queries for the layout 
+
+1) Mobile Device Layout (devices under 768 pixels)
+2) Desktop Layout (devices over 1024 pixels)
+
+OPTIONAL:
+
+3) Make an in between Query for Tablets (768 - 1024 pixels)
+
+Sections Required:
+
+1) Header for "The Code Review"
+2) SubHeader for the "Signup for our newsletter"
+3) A fieldset / legend / form for the Contact Information
+4) Another fieldset / legend / form for the Newsletter
+5) Footer for the "Copyright The Code Review"
+
+
+Information in each section:
+1)
+	a. THE CODE REVIEW
+
+2)
+	a. Signup for our newsletter (h2)
+	b. Get the latest news on how your code is doing right in your inbox (p)
+
+3) FIELDSET
+	a. Contact Information (h2)
+	b. Full Name (label)
+		1. Text Field (input - required)
+	c. Email Address (label)
+		1. Text Field (input - required)
+	d. Phone Number (label)
+		1. Text Field (input)
+	e. Street Address (label)
+		1. Text Field (input)
+	f. City (label)
+		1. Text Field (input)
+	g. State (label)
+		1. Option Group
+	h. Zip Code (label)
+		1. Text Field (input)
+
+4) FIELDSET
+	a. Newsletter (h2)
+	b. Select the newsletter you would like to receive (p)
+		1. CheckBoxes
+			- HTML News
+			- CSS News
+			- Javascript News
+	c. Newsletter format (p)
+		1. Radio Buttons
+			-HTML
+			-Plain Text
+	d. Other topics you'd like to hear about (p)
+		1.TextArea
+	e. Sign Up (button)
+
+5) FOOTER
+	a. Copyright The Code Review
+
+
+
+Things to make note of:
+- From looking at the markup the max-width on the desktop layout is 600px
+- On the mobile layout there is padding on both sides, indicating a % width was used and then centered.
+
+
+*/
