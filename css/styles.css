@@ -1,11 +1,11 @@
 /* Create two main media queries for the layout 
 
-1) Mobile Device Layout (devices under 768 pixels)
-2) Desktop Layout (devices over 1024 pixels)
+1) Mobile Device Layout (devices under 759 pixels)
+2) Desktop Layout (devices over 1024 pixels) or (devices over 760)
 
 OPTIONAL:
 
-3) Make an in between Query for Tablets (768 - 1024 pixels)
+3) Make an in between Query for Tablets (760 - 1024 pixels)
 
 Sections Required:
 
@@ -67,3 +67,7 @@ Things to make note of:
 
 
 */
+
+h1 {
+	color: #fede00;
+}
