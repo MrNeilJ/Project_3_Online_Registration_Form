@@ -151,6 +151,10 @@ section.callToAction {
 	padding-bottom: 15px;
 }
 
+section.callToAction p {
+	color: #c4c8cb;
+}
+
 
 /*==============================================
 
@@ -169,7 +173,7 @@ Form Fill Out
 	padding-bottom: 25px;
 }
 
-.contactFillOut form fieldset {
+.contactFillOut fieldset {
 	border-style: none;
 	padding-left: 0;
 	margin-left: 0;
@@ -243,9 +247,10 @@ section.newsletterFillOut textarea {
 	height: 100px;
 	border-radius: 5px;
 	padding: 5px;
+	resize: vertical;
 }
 
-section.newsletterFillOut button {
+[type="submit"] {
 	width: 100%;
 	padding: 20px;
 	margin-top: 25px;
@@ -262,6 +267,8 @@ section.newsletterFillOut button {
 
 
 
+
+
 /*==============================================
 
 FOOTER
@@ -271,7 +278,7 @@ FOOTER
 
 footer {
 	text-align: center;
-	color: lightgray;
+	color: #c4c8cb;
 }
 
 
