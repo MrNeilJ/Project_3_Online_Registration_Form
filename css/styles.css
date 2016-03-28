@@ -227,21 +227,21 @@ legend {
 }
 
 input:focus,
-select:focus{
+select:focus {
 	outline-color: #46698b;
 	background-color: #C4EEF1;
 	-webkit-transition: background-color 1300ms linear;
 	-webkit-transition: background-color 1300ms linear;
 	transition: background-color 1300ms linear;
 }
+
 input,
-select{
+select {
 	background-color: #2c3a3b;
 	-webkit-transition: background-color 500ms linear;
 	-webkit-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
 }
-
 
 
 /*==============================================
@@ -288,6 +288,8 @@ div.newsletterFillOut textarea {
 	font-weight: bolder;
 	margin-bottom: 0;
 }
+
+
 /*==============================================
 
 FOOTER
